@@ -4,14 +4,17 @@
   <router-view></router-view>
 </template>
 <script>
-
+export default {
+  name: 'LayoutLogin'
+}
 </script>  
 <style>
 .layout {
-  margin: 20vw auto 20vw;
+  width: 100vw;
   min-height: 100vh;
+  margin: 15vw auto 15vw;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
 }
 </style>

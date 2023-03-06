@@ -1,14 +1,18 @@
 <template>
+  <login-view></login-view>
   <router-view />
 </template>
 
 
 <script>
 import { defineComponent } from "vue";
+import LoginView from "./views/LoginView.vue";
 
 export default defineComponent({
+  components: { LoginView },
   name: "App",
-  mounted () {
+
+    mounted () {
     // Fixed header 스크롤 처리
     window.addEventListener("scroll", () => {
       const head = document.querySelector(".header");

@@ -24,6 +24,10 @@ export default {
 </script>
 
 <style scoped>
+.login {
+  display: flex;
+  flex-direction: column;
+}
 .loginBox {
   width: 100%;
   display: flex;
@@ -36,7 +40,6 @@ export default {
 }
 .formControl {
   display: flex;
-  flex-direction: column;
   justify-content: center;
 }
 .formControl__ID {
